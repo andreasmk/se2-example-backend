@@ -14,7 +14,7 @@ app.use(bodyParser.json())
 
 app.get('/', function(req, res){
     const { NAME } = process.env;
-    res.send(`Hello World! This is not a test!!`);
+    res.send(`Hello World!!`);
 });
 
 app.post('/', function(req, res){
